@@ -43,7 +43,7 @@ const swap= () => {
                               label="From"
                              ammount={ammount} 
                              currencyOptions={options}
-                             onCurrencychange={(currency)=>setAmount(ammount)}
+                             onCurrencychange={(currency)=>setfrom(currency)}
                              selectCurrency={from}
                              onAmmountchange={(ammount)=> setAmount(ammount)}
                           />
